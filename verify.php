@@ -73,7 +73,7 @@ function verifyEmail($toemail, $fromemail, $getdetails = false){
 		return array($result, $details);
 	}
 	else{
-		return $result;
+		return $reult;
 	}
 }
 ?>
